@@ -1,0 +1,38 @@
+{
+  "connection": "default",
+  "collectionName": "blogs",
+  "info": {
+    "name": "blogs",
+    "description": "This is the blogs"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "default": "",
+      "type": "string"
+    },
+    "imglink": {
+      "default": "",
+      "type": "string"
+    },
+    "short": {
+      "default": "",
+      "type": "text",
+      "maxLength": 300
+    },
+    "content": {
+      "default": "",
+      "type": "text"
+    },
+    "date": {
+      "default": "",
+      "type": "date"
+    },
+    "slug": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}
