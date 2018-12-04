@@ -1,8 +1,9 @@
 {
-  "host": "localhost",
+  "host": "admin.icodevietnam.com",
   "port": "${process.env.PORT || 1337}",
   "proxy": {
-    "enabled": false
+    "enabled": true,
+    "SSL": true
   },
   "autoReload": {
     "enabled": false
@@ -11,6 +12,7 @@
     "enabled": false
   },
   "admin": {
-    "autoOpen": false
+    "autoOpen": false,
+    "path": "/admin"
   }
 }
